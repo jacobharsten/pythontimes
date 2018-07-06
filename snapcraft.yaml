@@ -1,0 +1,18 @@
+name: pythontimes
+version: git
+summary: simpleTest
+description: |
+  This is a simple test to snap a python script
+
+grade: devel
+confinement: devmode
+
+apps:
+  pythontimes:
+    command: bin/pythontimes
+
+parts:
+  pythontimes:
+    plugin: python
+    python-version: python2
+    source: .
