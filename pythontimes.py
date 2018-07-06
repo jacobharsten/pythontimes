@@ -12,5 +12,4 @@ def printFunStuff():
     else:
         print "You need to enter a number!"
 
-if __name__ == '__main__':
-    printFunStuff()
+printFunStuff()
