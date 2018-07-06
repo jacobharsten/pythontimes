@@ -7,6 +7,5 @@ setup(name='pythontimes',
       description='test pythonfile',
       author='Jacob Harsten',
       author_email='jacob@harsten.com',
-      packages=['pythontimes'],
       scripts = ['bin/pythontimes'],
      )
